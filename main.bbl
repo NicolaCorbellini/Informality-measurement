@@ -1,0 +1,501 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{agaetal2022}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0e8e4a45dcc5f3c1425b2e0f63e4e2d4}{%
+           family={Aga},
+           familyi={A\bibinitperiod},
+           given={Gemechu},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0a12a4ee8a7cdc76e2f4d61f882d1ca}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f31dc5085f3d86a3f997a42426d7e110}{%
+           family={Jolevski},
+           familyi={J\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=641248cdc91dbdfd870f42a9b5e419bc}{%
+           family={Rodriguez\bibnamedelima Meza},
+           familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4d13920b3c3b83b67423a440f671cea}{%
+           family={Wimpey},
+           familyi={W\bibinitperiod},
+           given={Joshua\bibnamedelima Seth},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{745ce5fe7a44b4c7933305f2a8c6f9a4}
+      \strng{fullhash}{3587c3ebc5c216b6f55d0c9c23e91ec0}
+      \strng{bibnamehash}{3587c3ebc5c216b6f55d0c9c23e91ec0}
+      \strng{authorbibnamehash}{3587c3ebc5c216b6f55d0c9c23e91ec0}
+      \strng{authornamehash}{745ce5fe7a44b4c7933305f2a8c6f9a4}
+      \strng{authorfullhash}{3587c3ebc5c216b6f55d0c9c23e91ec0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{World Bank Policy Research Working Paper}
+      \field{title}{Surveying Informal Businesses, Methodology and Applications}
+      \field{year}{2022}
+    \endentry
+    \entry{dinolaetal2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ef795fa8afb74a103c447277215e0591}{%
+           family={Di\bibnamedelima Nola},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd45a6b9ab9e3e56fbb51ffce46d1247}{%
+           family={Kocharkov},
+           familyi={K\bibinitperiod},
+           given={Georgi},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62b0d6c738302b64d573d8696ac385cb}{%
+           family={Scholl},
+           familyi={S\bibinitperiod},
+           given={Almuth},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bfe029b19faeb9d7a08f1d3dd86f84c}{%
+           family={Tkhir},
+           familyi={T\bibinitperiod},
+           given={Anna-Mariia},
+           giveni={A\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c52f106d7fb0fdd8e4198e6b2380144f}
+      \strng{fullhash}{f4832c827dab652dcfa7dc7816956ee7}
+      \strng{bibnamehash}{f4832c827dab652dcfa7dc7816956ee7}
+      \strng{authorbibnamehash}{f4832c827dab652dcfa7dc7816956ee7}
+      \strng{authornamehash}{c52f106d7fb0fdd8e4198e6b2380144f}
+      \strng{authorfullhash}{f4832c827dab652dcfa7dc7816956ee7}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Review of Economic Dynamics}
+      \field{title}{The Aggregate Consequences of Tax Evasion}
+      \field{volume}{40}
+      \field{year}{2021}
+      \field{pages}{198\bibrangedash 227}
+      \range{pages}{30}
+    \endentry
+    \entry{elginetal2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4c108683c8d8683a7b813c7d22d17fae}{%
+           family={Elgin},
+           familyi={E\bibinitperiod},
+           given={Ceyhun},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a33f553d6a3864f7a477de73bcce1136}{%
+           family={Kose},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi Ayhan},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee165a78aff2b0ed28026be0b175a5c7}{%
+           family={Ohnsorge},
+           familyi={O\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdaeb12d30fde4d563eb53f774c4f2cd}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Shu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2befd788125b7cf6411923aff5afa43e}
+      \strng{fullhash}{b262d2b8ad2a5d514830ea42d5e37cb9}
+      \strng{bibnamehash}{b262d2b8ad2a5d514830ea42d5e37cb9}
+      \strng{authorbibnamehash}{b262d2b8ad2a5d514830ea42d5e37cb9}
+      \strng{authornamehash}{2befd788125b7cf6411923aff5afa43e}
+      \strng{authorfullhash}{b262d2b8ad2a5d514830ea42d5e37cb9}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Working paper}
+      \field{title}{Understanding Informality}
+      \field{year}{2021}
+    \endentry
+    \entry{elginoztunali2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4c108683c8d8683a7b813c7d22d17fae}{%
+           family={Elgin},
+           familyi={E\bibinitperiod},
+           given={Ceyhun},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af3a2159a7cfe4250a2ffb212d693295}{%
+           family={Öztunali},
+           familyi={Ö\bibinitperiod},
+           given={Oguz},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{997e8f830cd6dab3571a4d4b1a121546}
+      \strng{fullhash}{997e8f830cd6dab3571a4d4b1a121546}
+      \strng{bibnamehash}{997e8f830cd6dab3571a4d4b1a121546}
+      \strng{authorbibnamehash}{997e8f830cd6dab3571a4d4b1a121546}
+      \strng{authornamehash}{997e8f830cd6dab3571a4d4b1a121546}
+      \strng{authorfullhash}{997e8f830cd6dab3571a4d4b1a121546}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Working Papers 2012/05. Bogazici University.}
+      \field{title}{Shadow economies around the world: Model based estimates}
+      \field{year}{2012}
+    \endentry
+    \entry{feenstraetal2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ef1a7d4018465ef4e3e1c6e8e76851cc}{%
+           family={Feenstra},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fe796e727c5032c0bce181041e95365}{%
+           family={Inklaar},
+           familyi={I\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3d28c56ae2757a38682103faf8279a8}{%
+           family={Timmer},
+           familyi={T\bibinitperiod},
+           given={Marcel\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d561d42d216605ca1cca28ddbe84954}
+      \strng{fullhash}{1d561d42d216605ca1cca28ddbe84954}
+      \strng{bibnamehash}{1d561d42d216605ca1cca28ddbe84954}
+      \strng{authorbibnamehash}{1d561d42d216605ca1cca28ddbe84954}
+      \strng{authornamehash}{1d561d42d216605ca1cca28ddbe84954}
+      \strng{authorfullhash}{1d561d42d216605ca1cca28ddbe84954}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{10}
+      \field{title}{The Next Generation of the Penn World Table}
+      \field{volume}{105}
+      \field{year}{2015}
+      \field{pages}{3150\bibrangedash 3182}
+      \range{pages}{33}
+      \verb{urlraw}
+      \verb www.ggdc.net/pwt
+      \endverb
+      \verb{url}
+      \verb www.ggdc.net/pwt
+      \endverb
+    \endentry
+    \entry{ilo}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fbfe2ab33434313f5468213d93196d5c}{%
+           family={{ILO}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbfe2ab33434313f5468213d93196d5c}
+      \strng{fullhash}{fbfe2ab33434313f5468213d93196d5c}
+      \strng{bibnamehash}{fbfe2ab33434313f5468213d93196d5c}
+      \strng{authorbibnamehash}{fbfe2ab33434313f5468213d93196d5c}
+      \strng{authornamehash}{fbfe2ab33434313f5468213d93196d5c}
+      \strng{authorfullhash}{fbfe2ab33434313f5468213d93196d5c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \verb{urlraw}
+      \verb https://ilostat.ilo.org/methods/concepts-and-definitions/description-labour-force-statistics/#elementor-toc__heading-anchor-28
+      \endverb
+      \verb{url}
+      \verb https://ilostat.ilo.org/methods/concepts-and-definitions/description-labour-force-statistics/#elementor-toc__heading-anchor-28
+      \endverb
+    \endentry
+    \entry{laportashleifer2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=712ea8cb320f5c4337d5be3577ceb768}{%
+           family={La\bibnamedelima Porta},
+           familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73d7bf2d3105674f373111fc7356eec3}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{380f127643c644bf2119f4e9d340ce02}
+      \strng{fullhash}{380f127643c644bf2119f4e9d340ce02}
+      \strng{bibnamehash}{380f127643c644bf2119f4e9d340ce02}
+      \strng{authorbibnamehash}{380f127643c644bf2119f4e9d340ce02}
+      \strng{authornamehash}{380f127643c644bf2119f4e9d340ce02}
+      \strng{authorfullhash}{380f127643c644bf2119f4e9d340ce02}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{number}{3}
+      \field{title}{Informality and development}
+      \field{volume}{28}
+      \field{year}{2014}
+      \field{pages}{109\bibrangedash 26}
+      \range{pages}{18}
+    \endentry
+    \entry{leyvaurrutia2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b5bacb2ac55df898daf81842452618e6}{%
+           family={Leyva},
+           familyi={L\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2c57b728219a45bdc103ee2d023fd6e}{%
+           family={Urrutia},
+           familyi={U\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{88b06b34afd3e68e083e98d0da87d6e3}
+      \strng{fullhash}{88b06b34afd3e68e083e98d0da87d6e3}
+      \strng{bibnamehash}{88b06b34afd3e68e083e98d0da87d6e3}
+      \strng{authorbibnamehash}{88b06b34afd3e68e083e98d0da87d6e3}
+      \strng{authornamehash}{88b06b34afd3e68e083e98d0da87d6e3}
+      \strng{authorfullhash}{88b06b34afd3e68e083e98d0da87d6e3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of International Economics}
+      \field{title}{Informality, labor regulation and the business cycle}
+      \field{volume}{126}
+      \field{year}{2020}
+    \endentry
+    \entry{orsietal2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6189b0e5c8249c591d94660799277551}{%
+           family={Orsi},
+           familyi={O\bibinitperiod},
+           given={Renzo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4092d2cec91bbf565ee7890b77fbf086}{%
+           family={Raggi},
+           familyi={R\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aefd76b3ce795ee2aac9c6e6ef1ecb3f}{%
+           family={Turino},
+           familyi={T\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{586152466933adfcb9c16ac0a1be478f}
+      \strng{fullhash}{586152466933adfcb9c16ac0a1be478f}
+      \strng{bibnamehash}{586152466933adfcb9c16ac0a1be478f}
+      \strng{authorbibnamehash}{586152466933adfcb9c16ac0a1be478f}
+      \strng{authornamehash}{586152466933adfcb9c16ac0a1be478f}
+      \strng{authorfullhash}{586152466933adfcb9c16ac0a1be478f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Review of Economic Dynamics}
+      \field{title}{Size, Trend, and Policy Implications of the Underground Economy}
+      \field{volume}{17}
+      \field{year}{2014}
+      \field{pages}{417\bibrangedash 436}
+      \range{pages}{20}
+    \endentry
+    \entry{pappadarogoff2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d2a1abea04cb1a1fac916e31a3200325}{%
+           family={Pappadà},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfacefa9dbd5b7bedeeb1764cc5fd084}{%
+           family={Rogoff},
+           familyi={R\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f391f971005e6aa0ad6a6e25ff53e29e}
+      \strng{fullhash}{f391f971005e6aa0ad6a6e25ff53e29e}
+      \strng{bibnamehash}{f391f971005e6aa0ad6a6e25ff53e29e}
+      \strng{authorbibnamehash}{f391f971005e6aa0ad6a6e25ff53e29e}
+      \strng{authornamehash}{f391f971005e6aa0ad6a6e25ff53e29e}
+      \strng{authorfullhash}{f391f971005e6aa0ad6a6e25ff53e29e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of the European Economic Association}
+      \field{title}{Rethinking the Informal Economy and the {H}ugo Effect}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/jeea/jvaf006
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/jeea/jvaf006
+      \endverb
+    \endentry
+    \entry{schneideretal2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c2a4d169ca2894add06e7fddb2ad954b}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e05b8ca8f33d74e1441a94d874dbf738}{%
+           family={Buehn},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2eae9ecd3614ba28b0de629035aca3d1}{%
+           family={Montenegro},
+           familyi={M\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7b5280e5e69e1c069a3a45d47ca6fa80}
+      \strng{fullhash}{7b5280e5e69e1c069a3a45d47ca6fa80}
+      \strng{bibnamehash}{7b5280e5e69e1c069a3a45d47ca6fa80}
+      \strng{authorbibnamehash}{7b5280e5e69e1c069a3a45d47ca6fa80}
+      \strng{authornamehash}{7b5280e5e69e1c069a3a45d47ca6fa80}
+      \strng{authorfullhash}{7b5280e5e69e1c069a3a45d47ca6fa80}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Economic Journal}
+      \field{number}{4}
+      \field{title}{New Estimates for the Shadow Economies all over the World}
+      \field{volume}{24}
+      \field{year}{2010}
+      \field{pages}{443\bibrangedash 461}
+      \range{pages}{19}
+    \endentry
+    \entry{ulyssea2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10fcf9d33b2def85076e7b1bce65e0d9}{%
+           family={Ulyssea},
+           familyi={U\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{fullhash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{bibnamehash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{authorbibnamehash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{authornamehash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \strng{authorfullhash}{10fcf9d33b2def85076e7b1bce65e0d9}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{8}
+      \field{title}{Firms, Informality, and Development: Theory and Evidence form {B}razil}
+      \field{volume}{108}
+      \field{year}{2018}
+      \field{pages}{2015\bibrangedash 2047}
+      \range{pages}{33}
+    \endentry
+    \entry{worldbank2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Washington, D.C.,}
+      \field{title}{Re-thinking the Approach to Informal Businesses}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

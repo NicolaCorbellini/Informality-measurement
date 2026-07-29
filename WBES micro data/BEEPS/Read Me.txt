@@ -1,0 +1,52 @@
+This database combines the World Bank Enterprise Surveys (WBES) included in the 2019-2020 rollout in Europe and Central Asia (ECA) and the Middle East and North Africa (MENA). The 41 economies included are listed below. 
+All surveys used the same questionnaire, which included the rather lengthy Green Economy Module. The Morocco survey had additional Morocco-specific variables, which were dropped from this harmonized database. 
+Some variables have been dropped to protect the anonymity of the respondents.
+
+We ask that all users of the data to cite the data as follows - Source: World Bank Enterprise Surveys, http://www.enterprisesurveys.org
+We also suggest that all users include an acknowledgment line in their papers or books.  We have provided suggested wording below, but please feel free to amend as appropriate:
+"We thank the Enterprise Analysis Unit of the Development Economics Global Indicators Department of the World Bank Group for making the data available."
+
+The 41 economies included in this database:
+Albania2019
+Armenia2020
+Azerbaijan2019
+Belarus2018
+Bosnia and Herzegovina2019
+Bulgaria2019
+Croatia2019
+Cyprus2019
+Czechia2019
+Egypt2020
+Estonia2019
+Georgia2019
+Greece2018
+Hungary2019
+Italy2019
+Jordan2019
+Kazakhstan2019
+Kosovo2019
+Kyrgyz Republic2019
+Latvia2019
+Lebanon2019
+Lithuania2019
+Malta2019
+Moldova2019
+Mongolia2019
+Montenegro2019
+Morocco2019
+North Macedonia2019
+Poland2019
+Portugal2019
+Romania2019
+Russia2019
+Serbia2019
+Slovak Republic2019
+Slovenia2019
+Tajikistan2019
+Tunisia2020
+Türkiye2019
+Ukraine2019
+Uzbekistan2019
+West Bank And Gaza2019
+
+

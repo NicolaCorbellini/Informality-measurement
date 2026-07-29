@@ -1,0 +1,126 @@
+# Load necessary packages
+library(readxl)
+library(ggplot2)
+library(dplyr)
+
+# Import data from Excel
+# (1) total employment
+df1 <- read_excel("C:/Users/nicol/Documents/GitHub/Research/H-drive-umn/WBES micro data/Informality/cross-country data/total-employment-raw-data.xlsx")
+df1 <- df1 %>%
+  rename(country = ref_area.label,
+         year = time,
+         employment_total = obs_value)
+
+df1 <- df1 %>%
+  select(country, year, employment_total)
+
+# (2) informal employment
+df2 <- read_excel("C:/Users/nicol/Documents/GitHub/Research/H-drive-umn/WBES micro data/Informality/cross-country data/informal-employment-raw-data.xlsx", 
+)
+df2 <- df2 %>%
+  rename(country = ref_area.label,
+         year = time,
+         employment_informal = obs_value)
+
+df2 <- df2 %>%
+  select(country, year, employment_informal)
+
+# (3) employment outside formal sector
+df3 <- read_excel("C:/Users/nicol/Documents/GitHub/Research/H-drive-umn/WBES micro data/Informality/cross-country data/outside-formal-employment-raw-data.xlsx", 
+)
+df3 <- df3 %>%
+  rename(country = ref_area.label,
+         year = time,
+         employment_out_formal = obs_value)
+
+df3 <- df3 %>%
+  select(country, year, employment_out_formal)
+
+# Merging using base R's merge() function
+merged_df <- df1 %>%
+  full_join(df2, by = c("country", "year")) %>%
+  full_join(df3, by = c("country", "year"))
+
+# import country codes
+df4 <- read_excel("C:/Users/nicol/Documents/GitHub/Research/H-drive-umn/WBES micro data/Informality/cross-country data/country-codes.xlsx")
+                  
+df4 <- df4 %>%
+  rename(country = Economy)
+
+df4 <- df4 %>%
+  mutate(country = case_when(
+    country == "Bolivia" ~ "Bolivia (Plurinational State of)",
+    country == "Bahamas, The" ~ "Bahamas",
+    country == "Côte d’Ivoire" ~ "Côte d'Ivoire",
+    country == "Congo, Dem. Rep." ~ "Congo, Democratic Republic of the",
+    country == "Congo, Rep." ~ "Congo",
+    country == "Czech Republic" ~ "Czechia",
+    country == "Egypt, Arab Rep." ~ "Egypt",
+    country == "Micronesia, Fed. Sts." ~ "Micronesia (Federated States of)",
+    country == "United Kingdom" ~ "United Kingdom of Great Britain and Northern Ireland",
+    country == "Gambia, The" ~ "Gambia",
+    country == "Hong Kong SAR, China" ~ "Hong Kong, China",
+    country == "Iran, Islamic Rep." ~ "Iran (Islamic Republic of)",
+    country == "Kyrgyz Republic" ~ "Kyrgyzstan",
+    country == "St. Kitts and Nevis" ~ "Saint Kitts and Nevis",
+    country == "Korea, Rep." ~ "Republic of Korea",
+    country == "Lao PDR" ~ "Lao People's Democratic Republic",
+    country == "St. Lucia" ~ "Saint Lucia",
+    country == "Macao SAR, China" ~ "Macao, China",
+    country == "Moldova" ~ "Republic of Moldova",
+    country == "West Bank and Gaza" ~ "Occupied Palestinian Territory",
+    country == "São Tomé and Príncipe" ~ "Sao Tome and Principe",
+    country == "Slovak Republic" ~ "Slovakia",
+    country == "Tanzania" ~ "Tanzania, United Republic of",
+    country == "United States" ~ "United States of America",
+    country == "Venezuela, RB" ~ "Venezuela (Bolivarian Republic of)",
+    country == "Vietnam" ~ "Viet Nam",
+    country == "Yemen, Rep." ~ "Yemen",
+    TRUE ~ country
+  ))
+
+merged_df <- merged_df %>%
+  left_join(df4, by = c("country"))
+
+merged_df <- merged_df %>%
+  rename(country_code = Code)
+
+merged_df <- merged_df %>%
+  filter(!is.na(country_code))
+
+merged_df <- merged_df %>%
+  select(country, country_code, everything())
+
+# Import pwt data
+df5 <- read_excel("C:/Users/nicol/Documents/GitHub/Research/H-drive-umn/WBES micro data/Informality/cross-country data/pwt-raw-data.xlsx",
+                  sheet = "Data")
+
+df5 <- df5 %>%
+  rename(country_code = countrycode)
+
+# set year as numeric
+df5$year <- as.numeric(df5$year)
+merged_df$year <- as.numeric(merged_df$year)
+
+# merge with ILO data
+merged_df <- merged_df %>%
+  full_join(df5, by = c("country_code", "year"))
+
+merged_df <- merged_df %>%
+  mutate(country.x = if_else(is.na(country.x), country.y, country.x))
+
+merged_df <- merged_df %>%
+  select(-country.y)
+
+merged_df <- merged_df %>%
+  arrange(country_code, year)
+
+saveRDS(merged_df, "C:/Users/nicol/Documents/GitHub/Research/H-drive-umn/WBES micro data/Informality/cross-country data/ilo_empl.rds")
+
+                  
+
+
+            
+
+
+
